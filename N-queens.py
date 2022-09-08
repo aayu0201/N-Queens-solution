@@ -1,6 +1,3 @@
-from tkinter import N
-
-
 class Queensproblem:
     
     def __init__(self, n):
