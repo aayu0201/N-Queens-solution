@@ -4,10 +4,6 @@ class Queensproblem:
         self.n = n
         self.chesstable = [[0 for i in range(n)] for j in range(n)]
     
-    def change(self):
-        for i in range(self.n):
-            self.chesstable[i][i] = 1
-    
     def cell_valid(self,row,col):
         for j in range(col):
             if self.chesstable[row][j] == 1:
@@ -41,5 +37,3 @@ if __name__ == "__main__" :
     q1.printtable()
     q1.solve()
     q1.printtable()
-    #q1.change()
-    #q1.printtable()
