@@ -37,3 +37,8 @@ if __name__ == "__main__" :
     q1.printtable()
     q1.solve()
     q1.printtable()
+    q2 = Queensproblem(5)
+    q2.printtable()
+    q2.solve()
+    q2.printtable()
+    
