@@ -27,7 +27,6 @@ class Queensproblem:
                 self.chesstable[row][col] = 0
         return False
             
-            
         
     def printtable(self):
         print(self.chesstable)
